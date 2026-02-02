@@ -1,16 +1,22 @@
-# ===== Backend =====
-backend/target/
-backend/.gradle/
-
-# ===== Frontend =====
+# Frontend
 frontend/node_modules/
+frontend/.env
 frontend/dist/
-frontend/build/
+frontend/*.log
 
-# ===== IDE / OS =====
-.idea/
-.vscode/
+# Backend
+backend/.gradle/
+backend/build/
+backend/.env
+backend/*.log
+backend/bin/
+
+# System files
 .DS_Store
+Thumbs.db
 
-# ===== Env =====
-.env
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
